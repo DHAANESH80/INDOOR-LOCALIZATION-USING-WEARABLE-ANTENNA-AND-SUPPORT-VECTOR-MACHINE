@@ -1,0 +1,38 @@
+Proposed Methodology
+
+1.Designing of Antenna: EMPro Software, which is effective for designing and simulating
+antennas, is used to design microstrip antenna. The antenna is designed with desired
+frequency.
+
+2.Data Collection: The first step is to collect data using the designed wearable antenna. The
+data collection should be performed at various locations within the indoor environment to
+obtain a comprehensive dataset.
+
+3.Pre-processing: The collected data must be pre-processed to remove any errors or
+outliers. This step includes normalizing the data to ensure that the values are consistent and
+within a specific range.
+
+4.Feature Extraction: The next step is to extract relevant features from the pre-processed
+data. Path loss magnitude and RMS delay spread are suggested as two channel parameters
+that can be applied to the ML algorithm to correctly categorize into LOS and NLOS
+situations. The selected features will be used to train the machine learning model.
+
+5.Model Selection: The next step is to choose a machine learning model that is appropriate
+for this problem. A Support Vector Machine (SVM) is a suitable choice for this problem as it
+is effective in classification problems.
+
+6.Model Training: The selected machine learning model is then trained using the extracted
+features. The SVM model is trained using the training data, and the parameters are optimized
+to obtain the best accuracy.
+
+7.Model Testing: Once the model has been trained, it is tested using a separate dataset,
+known as the testing data. The accuracy of the model is calculated by comparing the
+predicted coordinates with the actual coordinates.
+
+8.Deployment: The final step is to deploy the trained model in the indoor environment. The
+wearable antenna can be used to continuously collect data and the SVM model can be used to
+predict the coordinates of the antenna in the indoor environment.
+
+This methodology can be used to accurately predict the location of a person or object using a
+wearable antenna and Support Vector Machine within an indoor environment using a Support
+Vector Machine model.
