@@ -1,0 +1,14 @@
+For operational, safety, and security reasons. it is essential to track and locate people in the indoor environment precisely.
+Due to the existence of physical obstructions, RF interference, and limited GPS satellite sight, indoor tracking, and localization is a
+difficult task. 
+An indoor localization and tracking system that uses wearable
+technology and machine learning to precisely track and locate people.
+The solution has high accuracy, low latency, and resilient performance in challenging indoor
+circumstances. 
+Path loss magnitude and RMS delay spread, two-channel properties are
+suggested as classification features to be applied to the ML model to effectively
+categorize the off-body channel links into LOS and NLOS scenarios. 
+The model's performance is evaluated by comparing the predicted locations with the actual
+locations. The system is designed to be low-cost and highly scalable. 
+The result of the project will show that the system accurately and reliably determines the location of a
+the person within an indoor environment
